@@ -1,0 +1,616 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dealer resmi Chery Tangerang. Pre-book Chery Q, Special offer J6 hitam NIK 2025, Tiggo Series, C5, E5. Konsultasi langsung dengan Nayla via WhatsApp." />
+  <meta name="keywords" content="chery tangerang, dealer chery tangerang, chery q tangerang, j6 nik 2025, chery tiggo tangerang, mobil chery tangerang" />
+  <meta property="og:title" content="Chery Tangerang — Dealer Resmi Chery di Tangerang" />
+  <meta property="og:description" content="Pre-book Chery Q & Special Offer J6 NIK 2025. Konsultasi langsung WhatsApp." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cherytangerang.com/" />
+  <meta name="theme-color" content="#0B1220" />
+  <link rel="icon" type="image/png" href="assets/Chery_logo.png" />
+  <title>Chery Tangerang — Dealer Resmi Chery | Pre-Book Chery Q &amp; Promo J6 NIK 2025</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#0B1220',
+            'ink-soft': '#131C2E',
+            crimson: '#E11D2E',
+            'crimson-deep': '#B7141F',
+            gold: '#C9A24C',
+            cream: '#F6F1E7',
+            snow: '#FFFFFF',
+            slate2: '#4A5468',
+            mist: '#E5E8EE',
+          },
+          fontFamily: {
+            display: ['Sora', 'sans-serif'],
+            body: ['Manrope', 'sans-serif'],
+          },
+          maxWidth: { container: '1240px' },
+          animation: {
+            'float': 'float 7s ease-in-out infinite',
+            'float-slow': 'float 11s ease-in-out infinite',
+          },
+          keyframes: {
+            float: {
+              '0%,100%': { transform: 'translateY(0) rotate(0deg)' },
+              '50%': { transform: 'translateY(-12px) rotate(4deg)' },
+            },
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    :root {
+      --c-ink: #0B1220;
+      --c-ink-soft: #131C2E;
+      --c-crimson: #E11D2E;
+      --c-crimson-deep: #B7141F;
+      --c-gold: #C9A24C;
+      --c-cream: #F6F1E7;
+      --c-snow: #FFFFFF;
+      --c-slate: #4A5468;
+      --c-mist: #E5E8EE;
+    }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+    body {
+      font-family: 'Manrope', system-ui, sans-serif;
+      color: var(--c-ink);
+      background: var(--c-snow);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      overflow-x: hidden;
+    }
+    .font-display { font-family: 'Sora', sans-serif; letter-spacing: -0.02em; }
+    .tabular { font-variant-numeric: tabular-nums; }
+
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease-out, transform .6s ease-out; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    .btn-primary {
+      display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
+      background: var(--c-crimson); color: var(--c-snow);
+      padding: .9rem 1.75rem; border-radius: 9999px;
+      font-weight: 600; font-size: 15px;
+      transition: transform .22s ease, background .22s ease, box-shadow .22s ease;
+      box-shadow: 0 10px 28px -14px rgba(225,29,46,.55);
+    }
+    .btn-primary:hover { background: var(--c-crimson-deep); transform: scale(1.02); }
+    .btn-primary:focus-visible { outline: 2px solid var(--c-crimson); outline-offset: 3px; }
+
+    .btn-outline {
+      display: inline-flex; align-items: center; justify-content: center; gap: .55rem;
+      background: transparent; color: var(--c-ink);
+      padding: .85rem 1.7rem; border-radius: 9999px;
+      font-weight: 600; font-size: 15px;
+      border: 2px solid var(--c-ink);
+      transition: background .22s ease, color .22s ease, transform .22s ease;
+    }
+    .btn-outline:hover { background: var(--c-ink); color: var(--c-snow); transform: scale(1.02); }
+    .btn-outline-light { color: var(--c-snow); border-color: var(--c-snow); }
+    .btn-outline-light:hover { background: var(--c-snow); color: var(--c-ink); }
+
+    .pill {
+      display: inline-flex; align-items: center; justify-content: center; gap: .35rem;
+      padding: .55rem .9rem;
+      border-radius: 9999px;
+      font-size: 13px; font-weight: 500;
+      border: 1px solid var(--c-mist); color: var(--c-ink);
+      transition: border-color .2s, color .2s, background .2s;
+    }
+    .pill:hover { border-color: var(--c-crimson); color: var(--c-crimson); background: rgba(225,29,46,.04); }
+
+    .card {
+      background: var(--c-snow);
+      border-radius: 16px;
+      box-shadow: 0 12px 32px -16px rgba(11,18,32,.18);
+      transition: transform .28s cubic-bezier(.2,.8,.2,1), box-shadow .28s cubic-bezier(.2,.8,.2,1);
+      overflow: hidden;
+      border: 1px solid var(--c-mist);
+    }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 24px 48px -20px rgba(11,18,32,.28); }
+
+    .nav-scrolled { background: rgba(11,18,32,.92); backdrop-filter: blur(12px); }
+
+    .wa-fab { box-shadow: 0 14px 36px -10px rgba(37,211,102,.55); }
+    .wa-ring::before {
+      content: ''; position: absolute; inset: 0; border-radius: 9999px;
+      background: #25D366; opacity: .55;
+      animation: pulseRing 2s cubic-bezier(0.4,0,0.6,1) infinite;
+      z-index: -1;
+    }
+    @keyframes pulseRing { 0% { transform: scale(1); opacity: .55; } 100% { transform: scale(1.6); opacity: 0; } }
+
+    @media (max-width: 640px) {
+      .deco-only-md { display: none !important; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      .reveal { opacity: 1 !important; transform: none !important; }
+    }
+  </style>
+</head>
+<body class="antialiased">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:bg-crimson focus:text-snow focus:px-4 focus:py-2 focus:rounded-full">Lewati ke konten utama</a>
+
+  <!-- ============== TOP ANNOUNCE BAR ============== -->
+  <div class="bg-ink text-snow text-[12.5px] py-2.5">
+    <div class="max-w-container mx-auto px-5 lg:px-8 flex items-center justify-between gap-4">
+      <p class="flex items-center gap-2">
+        <span class="inline-block w-1.5 h-1.5 rounded-full bg-crimson"></span>
+        <span class="hidden sm:inline">Pre-Book Chery Q · Special Offer J6 Hitam NIK 2025 — Stok Terbatas</span>
+        <span class="sm:hidden">Pre-Book Chery Q &amp; Promo J6 NIK 2025</span>
+      </p>
+      <div class="hidden md:flex items-center gap-4">
+        <a href="https://instagram.com/cherypik2_" class="inline-flex items-center gap-1.5 hover:text-gold transition" aria-label="Instagram @cherypik2_">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          @cherypik2_
+        </a>
+        <a href="https://tiktok.com/@nalavyu" class="inline-flex items-center gap-1.5 hover:text-gold transition" aria-label="TikTok @nalavyu">
+          <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.6 6.32a4.85 4.85 0 01-3.77-4.32h-3.07v13.14a2.74 2.74 0 11-2.74-2.74c.27 0 .54.04.79.12V9.4a5.79 5.79 0 00-.79-.05A5.81 5.81 0 1015.83 15.13V8.94a8.06 8.06 0 003.77.93V6.81c0-.16-.04-.32-.04-.49z"/></svg>
+          @nalavyu
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============== STICKY NAV ============== -->
+  <header id="nav" class="sticky top-0 z-50 bg-snow border-b border-mist transition-colors duration-300">
+    <div class="max-w-container mx-auto px-5 lg:px-8 h-[72px] flex items-center justify-between gap-6">
+      <a href="#hero" class="flex items-center gap-3 shrink-0" aria-label="Chery Tangerang Beranda">
+        <img src="assets/Chery_logo.png" alt="Chery" class="h-7 lg:h-8 w-auto" />
+        <span class="font-display font-bold text-[15px] lg:text-[16px] tracking-tight">Chery <span class="text-crimson">Tangerang</span></span>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-8 text-[14.5px] font-medium" aria-label="Navigasi utama">
+        <a href="#hero" class="hover:text-crimson transition">Beranda</a>
+        <a href="#special-offer" class="hover:text-crimson transition">Special Offer</a>
+        <a href="#lineup" class="hover:text-crimson transition">Mobil</a>
+        <a href="#profile" class="hover:text-crimson transition">Profil Sales</a>
+        <a href="#gallery" class="hover:text-crimson transition">Galeri</a>
+        <a href="#lokasi" class="hover:text-crimson transition">Lokasi</a>
+      </nav>
+
+      <a href="https://wa.me/6281234567890?text=Halo%20Nayla%2C%20saya%20ingin%20konsultasi%20Chery" class="hidden sm:inline-flex btn-primary !py-2.5 !px-5 !text-[13.5px]">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.52 3.48A11.93 11.93 0 0012.04 0C5.5 0 .2 5.3.2 11.84c0 2.09.55 4.13 1.6 5.93L0 24l6.4-1.68a11.81 11.81 0 005.64 1.44h.01c6.54 0 11.84-5.3 11.84-11.84 0-3.16-1.23-6.13-3.37-8.44z"/></svg>
+        Konsultasi WA
+      </a>
+
+      <button id="navToggle" class="lg:hidden p-2 -mr-2" aria-label="Buka menu" aria-expanded="false">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="lg:hidden hidden border-t border-mist bg-snow">
+      <nav class="px-5 py-4 flex flex-col gap-1 text-[15px] font-medium">
+        <a href="#hero" class="py-2.5 hover:text-crimson">Beranda</a>
+        <a href="#special-offer" class="py-2.5 hover:text-crimson">Special Offer</a>
+        <a href="#lineup" class="py-2.5 hover:text-crimson">Mobil</a>
+        <a href="#profile" class="py-2.5 hover:text-crimson">Profil Sales</a>
+        <a href="#gallery" class="py-2.5 hover:text-crimson">Galeri</a>
+        <a href="#lokasi" class="py-2.5 hover:text-crimson">Lokasi</a>
+        <a href="https://wa.me/6281234567890" class="btn-primary mt-2 !w-full">Konsultasi WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============== 1. HERO: CHERY Q PREBOOK (FULL IMAGE) ============== -->
+    <section id="hero" class="bg-snow">
+      <div class="w-full flex items-center justify-center px-4 sm:px-8 lg:px-12 py-6 sm:py-10 lg:py-14">
+        <a href="https://wa.me/6281234567890?text=Halo%20Nayla%2C%20saya%20ingin%20Pre-Book%20Chery%20Q" class="block" aria-label="Pre-Book Chery Q via WhatsApp">
+          <img
+            src="assets/cars/chery-q-prebook.jpg"
+            alt="Pre-Book Chery Q — Chery Tangerang"
+            class="block mx-auto w-auto h-auto max-w-full max-h-[90vh] object-contain"
+            fetchpriority="high"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- ============== 2. SPECIAL OFFER J6 NIK 2025 ============== -->
+    <section id="special-offer" class="relative py-16 lg:py-24 bg-cream overflow-hidden">
+      <svg class="absolute top-10 left-[6%] w-7 h-7 opacity-55 animate-float pointer-events-none" aria-hidden="true" viewBox="0 0 24 24" fill="#E11D2E"><path d="M12 2l10 10-10 10L2 12z"/></svg>
+      <svg class="absolute bottom-12 right-[8%] w-9 h-9 opacity-50 animate-float-slow pointer-events-none" aria-hidden="true" viewBox="0 0 24 24" fill="#C9A24C"><path d="M12 1l1.6 8.4L22 11l-8.4 1.6L12 21l-1.6-8.4L2 11l8.4-1.6z"/></svg>
+
+      <div class="max-w-container mx-auto px-5 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto reveal">
+          <span class="text-[12px] font-semibold tracking-[0.2em] uppercase text-crimson">Promo Eksklusif · Stok Terbatas</span>
+          <h2 class="font-display font-bold text-[28px] sm:text-[36px] lg:text-[44px] leading-[1.1] mt-3">Special Offer Chery <span class="text-crimson">J6 Hitam</span> — NIK 2025</h2>
+          <p class="mt-4 text-[15.5px] lg:text-[17px] text-slate2 leading-relaxed">Penawaran khusus unit J6 warna hitam dengan NIK 2025. Harga spesial, garansi resmi, plus benefit tambahan eksklusif. Hanya untuk customer Chery Tangerang.</p>
+        </div>
+
+        <div class="mt-10 lg:mt-14 reveal">
+          <div class="bg-ink rounded-3xl overflow-hidden shadow-2xl grid lg:grid-cols-12">
+            <div class="lg:col-span-7 relative bg-gradient-to-br from-ink-soft to-ink p-4 lg:p-8 grid place-items-center">
+              <img src="assets/cars/j6-special-price.png" alt="Special Price Chery J6 NIK 2025" class="w-full h-auto max-h-[420px] lg:max-h-[520px] object-contain" loading="lazy" />
+            </div>
+            <div class="lg:col-span-5 p-7 sm:p-9 lg:p-11 text-snow flex flex-col justify-center">
+              <span class="inline-flex items-center gap-2 bg-crimson/15 border border-crimson/30 rounded-full px-3 py-1 text-[11px] font-semibold tracking-[0.16em] uppercase text-crimson w-fit">
+                <span class="w-1.5 h-1.5 rounded-full bg-crimson animate-pulse"></span>
+                NIK 2025 · Limited Stock
+              </span>
+              <h3 class="font-display font-bold text-[24px] lg:text-[30px] leading-[1.15] mt-4">Chery J6 Hitam<br/><span class="text-gold">Harga Spesial</span></h3>
+              <ul class="mt-6 space-y-3 text-[14.5px] lg:text-[15.5px]">
+                <li class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-gold shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.7-9.7a1 1 0 00-1.4-1.4L9 10.2 7.7 8.9a1 1 0 00-1.4 1.4l2 2a1 1 0 001.4 0l4-4z" clip-rule="evenodd"/></svg>
+                  <span>Discount khusus unit hitam NIK 2025</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-gold shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.7-9.7a1 1 0 00-1.4-1.4L9 10.2 7.7 8.9a1 1 0 00-1.4 1.4l2 2a1 1 0 001.4 0l4-4z" clip-rule="evenodd"/></svg>
+                  <span>Cash bertahap 50:50 atau kredit bunga 0%</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-gold shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.7-9.7a1 1 0 00-1.4-1.4L9 10.2 7.7 8.9a1 1 0 00-1.4 1.4l2 2a1 1 0 001.4 0l4-4z" clip-rule="evenodd"/></svg>
+                  <span>Garansi resmi PT Chery Indonesia</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <svg class="w-5 h-5 text-gold shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.7-9.7a1 1 0 00-1.4-1.4L9 10.2 7.7 8.9a1 1 0 00-1.4 1.4l2 2a1 1 0 001.4 0l4-4z" clip-rule="evenodd"/></svg>
+                  <span>Free aksesoris &amp; test drive di rumah</span>
+                </li>
+              </ul>
+              <a href="https://wa.me/6281234567890?text=Halo%20Nayla%2C%20saya%20mau%20info%20Special%20Offer%20J6%20Hitam%20NIK%202025" class="btn-primary mt-8 w-full sm:w-fit">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.52 3.48A11.93 11.93 0 0012.04 0C5.5 0 .2 5.3.2 11.84c0 2.09.55 4.13 1.6 5.93L0 24l6.4-1.68a11.81 11.81 0 005.64 1.44h.01c6.54 0 11.84-5.3 11.84-11.84 0-3.16-1.23-6.13-3.37-8.44z"/></svg>
+                Klaim Penawaran Sekarang
+              </a>
+              <p class="text-[11.5px] text-snow/55 mt-3">*Stok terbatas, berlaku selama unit tersedia. Hubungi sales untuk info ketersediaan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== 3. FOTO PRODUK / LINEUP ============== -->
+    <section id="lineup" class="relative py-16 lg:py-24">
+      <svg class="absolute top-12 right-[6%] w-6 h-6 opacity-50 animate-float pointer-events-none" aria-hidden="true" viewBox="0 0 24 24" fill="#C9A24C"><path d="M12 1l1.6 8.4L22 11l-8.4 1.6L12 21l-1.6-8.4L2 11l8.4-1.6z"/></svg>
+      <div class="max-w-container mx-auto px-5 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto reveal">
+          <span class="text-[12px] font-semibold tracking-[0.2em] uppercase text-crimson">Foto Produk</span>
+          <h2 class="font-display font-bold text-[28px] sm:text-[36px] lg:text-[44px] leading-[1.1] mt-3">Lineup Mobil <span class="text-crimson">Chery</span> 2026</h2>
+          <p class="mt-4 text-[15.5px] lg:text-[17px] text-slate2 leading-relaxed">Pilihan SUV &amp; EV terbaru dengan harga, promo, dan skema pembayaran terbaik di Tangerang.</p>
+        </div>
+
+        <div id="cars" class="mt-10 lg:mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-7"></div>
+      </div>
+    </section>
+
+    <!-- ============== 4. PROFILE SALES ============== -->
+    <section id="profile" class="relative py-16 lg:py-24 bg-cream overflow-hidden">
+      <svg class="absolute top-12 left-[6%] w-7 h-7 opacity-55 animate-float pointer-events-none" aria-hidden="true" viewBox="0 0 24 24" fill="#C9A24C"><path d="M12 1l1.6 8.4L22 11l-8.4 1.6L12 21l-1.6-8.4L2 11l8.4-1.6z"/></svg>
+      <div class="max-w-container mx-auto px-5 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          <div class="lg:col-span-5 reveal">
+            <div class="relative max-w-md mx-auto">
+              <img src="assets/sales/profile.jpg" alt="Nayla Juliana — Sales Consultant Chery Tangerang" class="w-full aspect-[4/5] object-cover rounded-2xl shadow-2xl" />
+              <div class="absolute bottom-3 right-3 sm:-bottom-5 sm:-right-5 lg:-bottom-7 lg:-right-7 bg-crimson text-snow rounded-2xl px-3.5 py-3 sm:px-5 sm:py-4 shadow-xl">
+                <div class="text-[9.5px] sm:text-[10.5px] uppercase tracking-[0.18em] opacity-90">Authorized</div>
+                <div class="font-display font-extrabold text-[15px] sm:text-[18px] leading-tight">Sales Consultant</div>
+                <div class="text-[11px] sm:text-[12px] opacity-95">Chery Tangerang</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7 reveal">
+            <span class="text-[12px] font-semibold tracking-[0.2em] uppercase text-crimson">Profil Sales Konsultan</span>
+            <h2 class="font-display font-bold text-[26px] sm:text-[32px] lg:text-[40px] leading-[1.15] mt-3">Halo, Saya <span class="text-crimson">Nayla Juliana</span> — Sales Chery Tangerang.</h2>
+            <p class="mt-5 text-[15.5px] lg:text-[17px] text-slate2 leading-relaxed">Selamat datang di <span class="font-semibold text-ink">Chery Tangerang</span>. Saya hadir untuk memberikan solusi terbaik dalam memilih mobil Chery yang tepat — baik untuk kebutuhan pribadi maupun keluarga.</p>
+            <p class="mt-3 text-[15.5px] lg:text-[17px] text-slate2 leading-relaxed">Saya siap membantu setiap tahap pembelian, mulai konsultasi, simulasi kredit, test drive, hingga unit Anda siap digunakan. Hubungi saya kapan saja melalui kontak di bawah.</p>
+
+            <!-- Contact grid -->
+            <div class="mt-7 grid sm:grid-cols-2 gap-3">
+              <a href="https://wa.me/6281234567890?text=Halo%20Nayla%2C%20saya%20ingin%20konsultasi%20Chery" class="flex items-center gap-3 bg-snow border border-mist rounded-2xl p-4 hover:border-crimson hover:shadow-lg transition group">
+                <span class="w-10 h-10 rounded-xl bg-[#25D366]/10 grid place-items-center text-[#25D366] group-hover:bg-[#25D366] group-hover:text-snow transition">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.52 3.48A11.93 11.93 0 0012.04 0C5.5 0 .2 5.3.2 11.84c0 2.09.55 4.13 1.6 5.93L0 24l6.4-1.68a11.81 11.81 0 005.64 1.44h.01c6.54 0 11.84-5.3 11.84-11.84 0-3.16-1.23-6.13-3.37-8.44z"/></svg>
+                </span>
+                <div class="min-w-0">
+                  <div class="text-[11px] uppercase tracking-wider text-slate2 font-semibold">WhatsApp</div>
+                  <div class="font-display font-bold text-[14px] truncate">+62 812-3456-7890</div>
+                </div>
+              </a>
+              <a href="tel:+6281234567890" class="flex items-center gap-3 bg-snow border border-mist rounded-2xl p-4 hover:border-crimson hover:shadow-lg transition group">
+                <span class="w-10 h-10 rounded-xl bg-crimson/10 grid place-items-center text-crimson group-hover:bg-crimson group-hover:text-snow transition">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.3a1 1 0 01.97.76l1.1 4.4a1 1 0 01-.5 1.13l-1.7.94a13 13 0 006.6 6.6l.94-1.7a1 1 0 011.13-.5l4.4 1.1a1 1 0 01.76.97V19a2 2 0 01-2 2h-1C9.5 21 3 14.5 3 6V5z"/></svg>
+                </span>
+                <div class="min-w-0">
+                  <div class="text-[11px] uppercase tracking-wider text-slate2 font-semibold">Telepon</div>
+                  <div class="font-display font-bold text-[14px] truncate">+62 812-3456-7890</div>
+                </div>
+              </a>
+              <a href="https://instagram.com/cherypik2_" class="flex items-center gap-3 bg-snow border border-mist rounded-2xl p-4 hover:border-crimson hover:shadow-lg transition group">
+                <span class="w-10 h-10 rounded-xl bg-gradient-to-br from-[#E1306C]/15 to-[#FCAF45]/15 grid place-items-center text-[#E1306C] group-hover:from-[#E1306C] group-hover:to-[#FCAF45] group-hover:text-snow transition">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+                </span>
+                <div class="min-w-0">
+                  <div class="text-[11px] uppercase tracking-wider text-slate2 font-semibold">Instagram</div>
+                  <div class="font-display font-bold text-[14px] truncate">@cherypik2_</div>
+                </div>
+              </a>
+              <a href="https://tiktok.com/@nalavyu" class="flex items-center gap-3 bg-snow border border-mist rounded-2xl p-4 hover:border-crimson hover:shadow-lg transition group">
+                <span class="w-10 h-10 rounded-xl bg-ink/8 grid place-items-center text-ink group-hover:bg-ink group-hover:text-snow transition">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19.6 6.32a4.85 4.85 0 01-3.77-4.32h-3.07v13.14a2.74 2.74 0 11-2.74-2.74c.27 0 .54.04.79.12V9.4a5.79 5.79 0 00-.79-.05A5.81 5.81 0 1015.83 15.13V8.94a8.06 8.06 0 003.77.93V6.81c0-.16-.04-.32-.04-.49z"/></svg>
+                </span>
+                <div class="min-w-0">
+                  <div class="text-[11px] uppercase tracking-wider text-slate2 font-semibold">TikTok</div>
+                  <div class="font-display font-bold text-[14px] truncate">@nalavyu</div>
+                </div>
+              </a>
+              <a href="mailto:naylajuliana16@gmail.com" class="flex items-center gap-3 bg-snow border border-mist rounded-2xl p-4 hover:border-crimson hover:shadow-lg transition group sm:col-span-2">
+                <span class="w-10 h-10 rounded-xl bg-gold/15 grid place-items-center text-gold group-hover:bg-gold group-hover:text-snow transition">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l9 6 9-6M5 6h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"/></svg>
+                </span>
+                <div class="min-w-0">
+                  <div class="text-[11px] uppercase tracking-wider text-slate2 font-semibold">Email</div>
+                  <div class="font-display font-bold text-[14px] truncate">naylajuliana16@gmail.com</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== 5. GALERI SALES BERSAMA KONSUMEN ============== -->
+    <section id="gallery" class="py-16 lg:py-24">
+      <div class="max-w-container mx-auto px-5 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto reveal">
+          <span class="text-[12px] font-semibold tracking-[0.2em] uppercase text-crimson">Galeri</span>
+          <h2 class="font-display font-bold text-[28px] sm:text-[36px] lg:text-[44px] leading-[1.1] mt-3">Galeri Sales Bersama <span class="text-crimson">Konsumen</span></h2>
+          <p class="mt-4 text-[15.5px] lg:text-[17px] text-slate2 leading-relaxed">Momen serah-terima unit Chery bersama customer yang telah mempercayai layanan kami di Tangerang.</p>
+        </div>
+
+        <div class="mt-10 lg:mt-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-4">
+          <figure class="reveal aspect-[4/5] rounded-2xl overflow-hidden bg-mist"><img src="assets/customers/customer-1.jpg" alt="Galeri sales bersama konsumen Chery 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" /></figure>
+          <figure class="reveal aspect-[4/5] rounded-2xl overflow-hidden bg-mist"><img src="assets/customers/customer-2.jpg" alt="Galeri sales bersama konsumen Chery 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" /></figure>
+          <figure class="reveal aspect-[4/5] rounded-2xl overflow-hidden bg-mist"><img src="assets/customers/customer-3.jpg" alt="Galeri sales bersama konsumen Chery 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" /></figure>
+          <figure class="reveal aspect-[4/5] rounded-2xl overflow-hidden bg-mist"><img src="assets/customers/customer-4.jpg" alt="Galeri sales bersama konsumen Chery 4" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" /></figure>
+          <figure class="reveal aspect-[4/5] rounded-2xl overflow-hidden bg-mist"><img src="assets/customers/customer-5.jpg" alt="Galeri sales bersama konsumen Chery 5" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" /></figure>
+          <figure class="reveal aspect-[4/5] rounded-2xl overflow-hidden bg-mist"><img src="assets/customers/customer-6.jpg" alt="Galeri sales bersama konsumen Chery 6" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" /></figure>
+          <figure class="reveal aspect-[4/5] rounded-2xl overflow-hidden bg-mist"><img src="assets/customers/customer-7.jpg" alt="Galeri sales bersama konsumen Chery 7" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" /></figure>
+          <figure class="reveal aspect-[4/5] rounded-2xl overflow-hidden bg-ink text-snow grid place-items-center p-6 text-center">
+            <div>
+              <div class="font-display font-extrabold text-[28px] sm:text-[36px] lg:text-[40px] text-gold">500+</div>
+              <p class="text-[12px] sm:text-[13px] mt-1 text-snow/70">Customer Tangerang sudah delivery</p>
+              <a href="https://wa.me/6281234567890" class="mt-4 inline-block text-[12.5px] underline underline-offset-4 text-snow/90 hover:text-gold">Bergabung sekarang</a>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== 6. MAPS / LOKASI ============== -->
+    <section id="lokasi" class="relative py-16 lg:py-24 bg-ink text-snow overflow-hidden">
+      <svg class="deco-only-md absolute -top-10 -right-10 w-72 h-72 opacity-15 pointer-events-none" aria-hidden="true" viewBox="0 0 100 100" fill="none" stroke="#C9A24C" stroke-width="1"><circle cx="50" cy="50" r="48"/></svg>
+      <svg class="absolute top-12 left-[6%] w-7 h-7 opacity-55 animate-float pointer-events-none" aria-hidden="true" viewBox="0 0 24 24" fill="#C9A24C"><path d="M12 1l1.6 8.4L22 11l-8.4 1.6L12 21l-1.6-8.4L2 11l8.4-1.6z"/></svg>
+
+      <div class="max-w-container mx-auto px-5 lg:px-8 relative">
+        <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+          <div class="lg:col-span-5 reveal">
+            <span class="text-[12px] font-semibold tracking-[0.2em] uppercase text-gold">Lokasi Showroom</span>
+            <h2 class="font-display font-bold text-[28px] sm:text-[36px] lg:text-[44px] leading-[1.1] mt-3">Kunjungi Showroom <span class="text-gold">Chery Tangerang</span>.</h2>
+            <p class="mt-5 text-[15.5px] lg:text-[17px] text-snow/75 leading-relaxed">Datang langsung untuk melihat unit, melakukan test drive, atau konsultasi tatap muka. Kami siap menyambut Anda di showroom resmi Chery Tangerang.</p>
+
+            <div class="mt-7 space-y-4">
+              <div class="flex items-start gap-3">
+                <span class="w-10 h-10 rounded-xl bg-snow/8 grid place-items-center text-gold shrink-0">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-7.5-7-12a7 7 0 1114 0c0 4.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                </span>
+                <div>
+                  <div class="text-[11px] uppercase tracking-wider text-snow/55 font-semibold">Alamat</div>
+                  <div class="text-[14.5px] text-snow leading-relaxed">Showroom Chery Tangerang<br/>Jl. Raya Serpong, Tangerang Selatan,<br/>Banten — Indonesia</div>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="w-10 h-10 rounded-xl bg-snow/8 grid place-items-center text-gold shrink-0">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 7v5l3 2"/></svg>
+                </span>
+                <div>
+                  <div class="text-[11px] uppercase tracking-wider text-snow/55 font-semibold">Jam Operasional</div>
+                  <div class="text-[14.5px] text-snow leading-relaxed">Senin - Sabtu: 08.00 - 17.00 WIB<br/>Minggu: 10.00 - 15.00 WIB</div>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="w-10 h-10 rounded-xl bg-snow/8 grid place-items-center text-gold shrink-0">
+                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.52 3.48A11.93 11.93 0 0012.04 0C5.5 0 .2 5.3.2 11.84c0 2.09.55 4.13 1.6 5.93L0 24l6.4-1.68a11.81 11.81 0 005.64 1.44h.01c6.54 0 11.84-5.3 11.84-11.84 0-3.16-1.23-6.13-3.37-8.44z"/></svg>
+                </span>
+                <div>
+                  <div class="text-[11px] uppercase tracking-wider text-snow/55 font-semibold">Kontak Sales</div>
+                  <a href="https://wa.me/6281234567890" class="text-[14.5px] text-snow hover:text-gold transition">+62 812-3456-7890 (Nayla)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8 flex flex-col sm:flex-row gap-3">
+              <a href="https://maps.google.com/?q=Chery+Tangerang+Serpong" target="_blank" rel="noopener" class="btn-primary">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-7.5-7-12a7 7 0 1114 0c0 4.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                Buka Google Maps
+              </a>
+              <a href="https://wa.me/6281234567890?text=Halo%20Nayla%2C%20saya%20ingin%20datang%20ke%20showroom" class="btn-outline btn-outline-light">Konfirmasi Kunjungan</a>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7 reveal">
+            <div class="rounded-2xl overflow-hidden border border-snow/10 shadow-2xl bg-snow/5">
+              <iframe
+                src="https://maps.google.com/maps?q=Chery+Tangerang+Serpong&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                class="w-full h-[360px] sm:h-[440px] lg:h-[520px] block"
+                style="border:0;"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Lokasi Showroom Chery Tangerang"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="bg-ink-soft text-snow border-t border-snow/8">
+    <div class="max-w-container mx-auto px-5 lg:px-8 py-12 lg:py-16 grid lg:grid-cols-12 gap-10">
+      <div class="lg:col-span-5">
+        <a href="#hero" class="flex items-center gap-3" aria-label="Chery Tangerang">
+          <img src="assets/Chery_logo.png" alt="Chery" class="h-8 brightness-0 invert" />
+          <span class="font-display font-bold text-[16px]">Chery <span class="text-crimson">Tangerang</span></span>
+        </a>
+        <p class="mt-5 text-[14.5px] text-snow/70 leading-relaxed max-w-md">Dealer Resmi Chery di Tangerang. Konsultasi pembelian, test drive, simulasi kredit, dan after sales bersama Nayla — sales konsultan Chery Tangerang.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://wa.me/6281234567890" class="w-9 h-9 rounded-full bg-snow/8 grid place-items-center hover:bg-[#25D366] hover:text-white transition" aria-label="WhatsApp">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.52 3.48A11.93 11.93 0 0012.04 0C5.5 0 .2 5.3.2 11.84c0 2.09.55 4.13 1.6 5.93L0 24l6.4-1.68a11.81 11.81 0 005.64 1.44h.01c6.54 0 11.84-5.3 11.84-11.84 0-3.16-1.23-6.13-3.37-8.44z"/></svg>
+          </a>
+          <a href="https://instagram.com/cherypik2_" class="w-9 h-9 rounded-full bg-snow/8 grid place-items-center hover:bg-gradient-to-br hover:from-[#E1306C] hover:to-[#FCAF45] transition" aria-label="Instagram @cherypik2_">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://tiktok.com/@nalavyu" class="w-9 h-9 rounded-full bg-snow/8 grid place-items-center hover:bg-snow hover:text-ink transition" aria-label="TikTok @nalavyu">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19.6 6.32a4.85 4.85 0 01-3.77-4.32h-3.07v13.14a2.74 2.74 0 11-2.74-2.74c.27 0 .54.04.79.12V9.4a5.79 5.79 0 00-.79-.05A5.81 5.81 0 1015.83 15.13V8.94a8.06 8.06 0 003.77.93V6.81c0-.16-.04-.32-.04-.49z"/></svg>
+          </a>
+          <a href="mailto:naylajuliana16@gmail.com" class="w-9 h-9 rounded-full bg-snow/8 grid place-items-center hover:bg-gold hover:text-ink transition" aria-label="Email Nayla">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l9 6 9-6M5 6h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-3">
+        <h3 class="font-display font-bold text-[14px] uppercase tracking-[0.18em] text-gold">Navigasi</h3>
+        <ul class="mt-5 space-y-2.5 text-[14px] text-snow/75">
+          <li><a href="#hero" class="hover:text-snow">Beranda</a></li>
+          <li><a href="#special-offer" class="hover:text-snow">Special Offer J6</a></li>
+          <li><a href="#lineup" class="hover:text-snow">Foto Produk</a></li>
+          <li><a href="#profile" class="hover:text-snow">Profil Sales</a></li>
+          <li><a href="#gallery" class="hover:text-snow">Galeri</a></li>
+          <li><a href="#lokasi" class="hover:text-snow">Lokasi</a></li>
+        </ul>
+      </div>
+
+      <div class="lg:col-span-4">
+        <h3 class="font-display font-bold text-[14px] uppercase tracking-[0.18em] text-gold">Hubungi Nayla</h3>
+        <ul class="mt-5 space-y-2.5 text-[14px] text-snow/75">
+          <li><a href="https://wa.me/6281234567890" class="hover:text-snow">WhatsApp · +62 812-3456-7890</a></li>
+          <li><a href="https://instagram.com/cherypik2_" class="hover:text-snow">Instagram · @cherypik2_</a></li>
+          <li><a href="https://tiktok.com/@nalavyu" class="hover:text-snow">TikTok · @nalavyu</a></li>
+          <li><a href="mailto:naylajuliana16@gmail.com" class="hover:text-snow break-all">Email · naylajuliana16@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-snow/8">
+      <div class="max-w-container mx-auto px-5 lg:px-8 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-[12.5px] text-snow/55">
+        <p>© 2026 Chery Tangerang · cherytangerang.com — Authorized Dealer Chery Indonesia.</p>
+        <p>Harga &amp; spesifikasi dapat berubah sewaktu-waktu. Syarat &amp; ketentuan berlaku.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============== FLOATING WHATSAPP ============== -->
+  <a href="https://wa.me/6281234567890?text=Halo%20Nayla%20Chery%20Tangerang" class="fixed bottom-5 right-5 lg:bottom-7 lg:right-7 z-50 wa-fab" aria-label="Chat WhatsApp Nayla Chery Tangerang">
+    <span class="relative inline-grid place-items-center w-14 h-14 lg:w-16 lg:h-16 rounded-full bg-[#25D366] text-white wa-ring">
+      <svg class="w-7 h-7 lg:w-8 lg:h-8 relative z-10" fill="currentColor" viewBox="0 0 24 24"><path d="M20.52 3.48A11.93 11.93 0 0012.04 0C5.5 0 .2 5.3.2 11.84c0 2.09.55 4.13 1.6 5.93L0 24l6.4-1.68a11.81 11.81 0 005.64 1.44h.01c6.54 0 11.84-5.3 11.84-11.84 0-3.16-1.23-6.13-3.37-8.44zM12.05 21.6h-.01a9.74 9.74 0 01-4.96-1.36l-.36-.21-3.8 1 1.02-3.7-.23-.38a9.74 9.74 0 01-1.5-5.13c0-5.4 4.4-9.78 9.84-9.78 2.63 0 5.1 1.03 6.96 2.88a9.78 9.78 0 012.88 6.92c0 5.4-4.4 9.78-9.84 9.78z"/></svg>
+    </span>
+  </a>
+
+  <script>
+    // ============== LINEUP DATA & RENDERING ==============
+    const WA_NUMBER = '6281234567890';
+    const cars = [
+      { name: 'Chery J6', start: '565.500.000', img: 'assets/cars/j6.webp', tag: 'EV · NEW', highlight: true },
+      { name: 'Chery J6T', start: '585.500.000', img: 'assets/cars/j6t.png', tag: 'EV · NEW', highlight: true },
+      { name: 'Tiggo 9 CSH', start: '749.900.000', img: 'assets/cars/tiggo-9-csh.png', tag: 'Hybrid · Flagship', highlight: true },
+      { name: 'Tiggo 8 CSH', start: '454.900.000', img: 'assets/cars/tiggo-8-csh.png', tag: 'Hybrid · NEW' },
+      { name: 'Tiggo 8', start: '367.500.000', img: 'assets/cars/tiggo-8.png', tag: 'SUV 7-Seater' },
+      { name: 'Tiggo Cross CSH', start: '334.900.000', img: 'assets/cars/tiggo-cross-csh.png', tag: 'Hybrid · NEW' },
+      { name: 'Tiggo Cross Sport', start: '281.900.000', img: 'assets/cars/tiggo-cross-sport.png', tag: 'Sport Edition' },
+      { name: 'Tiggo Cross', start: '269.500.000', img: 'assets/cars/tiggo-cross.png', tag: 'Best Value' },
+      { name: 'Chery C5 CSH', start: '404.900.000', img: 'assets/cars/c5-csh.webp', tag: 'Hybrid · NEW' },
+      { name: 'Chery C5', start: '321.000.000', img: 'assets/cars/c5.png', tag: 'Modern SUV' },
+    ];
+
+    const promoTemplates = [
+      { label: 'Cash Bertahap 50:50', text: (n) => `Halo Nayla, info Program Cash 50:50 untuk ${n}` },
+      { label: 'Cek Angsuran', text: (n) => `Halo Nayla, mau cek angsuran & DP untuk ${n}` },
+      { label: 'Promo Kredit Bunga 0%', text: (n) => `Halo Nayla, info Promo Kredit Bunga 0% ${n}` },
+      { label: 'Tukar Tambah Mobil Lama', text: (n) => `Halo Nayla, mau tukar tambah dengan ${n}` },
+    ];
+
+    const carsContainer = document.getElementById('cars');
+    if (carsContainer) {
+      carsContainer.innerHTML = cars.map((car) => {
+        const pills = promoTemplates.map(p => `
+          <a href="https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(p.text(car.name))}" class="pill" aria-label="${p.label} ${car.name}">${p.label}</a>
+        `).join('');
+        const badge = car.highlight ? `<span class="absolute top-3 left-3 z-10 bg-crimson text-snow text-[10.5px] font-semibold tracking-[0.18em] uppercase px-3 py-1 rounded-full">NEW</span>` : '';
+        return `
+          <article class="card reveal flex flex-col">
+            <div class="relative bg-cream/60">
+              ${badge}
+              <div class="aspect-[16/10] grid place-items-center p-3 lg:p-5">
+                <img src="${car.img}" alt="${car.name}" class="w-full h-full object-contain transition-transform duration-500 hover:scale-105" loading="lazy" />
+              </div>
+            </div>
+            <div class="p-5 sm:p-6 lg:p-7 flex flex-col flex-1">
+              <span class="text-[11px] font-semibold tracking-[0.2em] uppercase text-slate2">${car.tag}</span>
+              <h3 class="font-display font-bold text-[20px] sm:text-[22px] lg:text-[24px] mt-1.5 leading-tight">${car.name}</h3>
+              <div class="mt-2 text-[13px] text-slate2">Start dari</div>
+              <div class="font-display font-extrabold text-[20px] sm:text-[22px] lg:text-[26px] text-crimson tabular leading-none">Rp ${car.start}</div>
+              <div class="mt-5 flex flex-wrap gap-2">
+                ${pills}
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    // ============== MOBILE MENU TOGGLE ==============
+    const navToggle = document.getElementById('navToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    navToggle?.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('hidden') === false;
+      navToggle.setAttribute('aria-expanded', String(open));
+    });
+    document.querySelectorAll('#mobileMenu a').forEach(a => a.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+      navToggle.setAttribute('aria-expanded', 'false');
+    }));
+
+    // ============== STICKY NAV SCROLLED STYLE ==============
+    const nav = document.getElementById('nav');
+    const onScroll = () => {
+      if (window.scrollY > 8) {
+        nav.classList.add('nav-scrolled', 'text-snow');
+        nav.classList.remove('bg-snow');
+      } else {
+        nav.classList.remove('nav-scrolled', 'text-snow');
+        nav.classList.add('bg-snow');
+      }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // ============== REVEAL ON SCROLL ==============
+    const reveals = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), Math.min(i, 5) * 80);
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    reveals.forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
